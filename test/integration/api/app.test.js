@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../../../app.js')
+const app = require('../../../src/app.js')
 const { getPage } = require('../../../src/controllers/getPage.js')
 
 describe(' GET /mock-content', () => {
